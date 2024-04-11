@@ -1,0 +1,112 @@
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    color: #c1c1a7;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    gap: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #92a4ff;
+}
+
+h1 {
+    background-color: black;
+    font-size: 48px;
+    padding: 10px;
+    margin: 0;
+    color: #444863;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size:30px;
+}
+
+article img .image {
+
+    float: left;
+    margin: 0px 0 20px 20px;
+    max-width: 60%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+    background-color: rgb(162, 162, 162);
+}
+
+.footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+}
+.icons ul {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}

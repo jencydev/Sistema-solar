@@ -1,0 +1,124 @@
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: black/*linear-gradient(to right, rgba(3, 3, 207, 0.532), rgb(212, 170, 198))*/;
+    color: #e1d0f5;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #92a4ff;
+}
+
+h1 {
+    background-color: black;
+    font-size: 48px;
+    padding: 10px;
+    margin: 0;
+    color: #444863;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.image {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 60%;
+    height: auto;
+}
+
+.image2 {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 50%;
+    height: auto;
+}
+.article {
+    float: left;
+    width: 70%;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #CCC;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 8px;
+    text-align: center;
+    clear: both;
+}
+.icons ul {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}

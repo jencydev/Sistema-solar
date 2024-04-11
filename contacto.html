@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <title>Sistema Solar</title>
+</head>
+<body>
+    <header>
+        <h1>El sistema solar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="planetas.html">Planetas</a></li>
+                <li><a href="otros.html">Otros Cuerpos</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>  
+    </header>
+    
+    <h3>Para nosotros es muy importante tu opinión</h3>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="name" placeholder="Escribe tu nombre y apellido" required >
+            <label for="email">Email:</label>
+            <input type="email" id="mail" placeholder="Escribe tu correo" required >
+            <label for="pais">País:</label>
+            <select name="pais" id="pais" required>
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Chile">Chile</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="España">España</option>
+                <option value="México">México</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <label for="comentario">Danos tu opinión</label>
+            <textarea name="comentario" id="comentario" placeholder="Escribe tu opinión"></textarea>
+            <br>
+            <label for="motivo">Por qué quieres contactarnos?</label>
+            <br>
+            <input type="radio" id="motivo" name="motivo"><i>Quiero aprender más</i>
+            <input type="radio" id="motivo" name="motivo"><i>Envíame un libro del espacio</i>
+            <input type="radio" id="motivo" name="motivo"><i>Amé esta página</i>
+            <input type="radio" id="motivo" name="motivo"><i>Algo no me gustó</i>
+
+            <input type="submit" value="Enviar">
+
+
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="icons">
+            <ul>
+                <li><img src="/assets/icons/envelope.svg" alt="Mail"> Mail</li>
+                <li><img src="/assets/icons/github.svg" alt="GitHub"> GitHub</li>
+                <li><img src="/assets/icons/whatsapp.svg" alt="Whatsapp"> Whatsapp</li>
+            </ul>
+        </div>
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+</body> 
+</html>
